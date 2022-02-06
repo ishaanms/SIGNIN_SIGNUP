@@ -1,5 +1,5 @@
 {
-  "homepage":"http://ishaanms.github.io/SIGNIN_SIGNUP",
+  "homepage": "http://ishaanms.github.io/SIGNIN_SIGNUP",
   "name": "react-auth",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.1.3",
     "firebase": "^9.4.1",
+    "firebase-tools": "^10.1.4",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.2",
     "react-dom": "^17.0.2",
@@ -18,8 +19,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
